@@ -17,4 +17,4 @@ const getFlex = async (req, res) => {
 	});
 };
 
-getFlex();
+export default getFlex();
