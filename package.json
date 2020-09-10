@@ -3,5 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {},
-  "dependencies": {}
+  "dependencies": {
+    "fetch": "^1.1.0"
+  }
 }
