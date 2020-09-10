@@ -1,4 +1,4 @@
-const fetch = require('fetch');
+const fetch = require('node-fetch');
 
 const getFlex = async (req, res) => {
 	const { token, response_url } = req.body;
