@@ -29,7 +29,7 @@ export default (req, res) => {
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "This is a mrkdwn section block :ghost: *this is bold*, and ~this is crossed out~, and <https://google.com|this is a link>"
+				"text": flexes[Math.floor(Math.random() * flexes.length)]
 			}
 		},
 		{
@@ -37,7 +37,7 @@ export default (req, res) => {
 			"elements": [
 				{
 					"type": "mrkdwn",
-					"text": "Flexed on by <@user_id>"
+					"text": `Flexed on by <@user_id>`
 				}
 			]
 		}
