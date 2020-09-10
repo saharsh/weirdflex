@@ -9,7 +9,7 @@ Don't want to add this directly to your slack workspace and control which weird 
 
 1. [Create a slack app](https://api.slack.com/apps?new_app=1)
 2. Navigate back to "Basic Information" click "Install App to Workspace". Make note of the Verification Token. We need to add this as an environment variable to the Vercel deployment.
-3. Press the `Deploy` button below and follow the instructions. It'll create a fork of this repo to your Github account and deploy that fork on Vercel.
+3. Press the `Deploy` button above and follow the instructions. It'll create a fork of this repo to your Github account and deploy that fork on Vercel.
 4. Navigate to "Slash Commands" and click "Create New Command".
 5. Fill out the form using the deployed URL for your function. Your deployed url will probably look something like https://weirdflex-`something`.vercel.app/api/weirdflex. You can find what the `something` is by going to Settings -> General -> Domains in your Vercel project.
 6. Hit save and you're done!
