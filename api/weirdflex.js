@@ -29,6 +29,8 @@ export default (req, res) => {
     "The action that you just performed was a peculiar attempt at an assertion of dominance, however, under the current circumstances your deed may be deemed as acceptable.",
     "You are being informed that the manner in which you have attempted to elicit admiration from your community, as well as satisfy your subconscious attitude towards self inferiority by continual affirmation of a false superiority, has nonetheless resulted in a mannerism which would, in most cases, be considered by members of your community, who may chance upon witnessing such actions, to be of a highly irregular nature, somewhat contrary to the pre-established status quo of said individuals; however, let it not be misunderstood that, despite such deviation from mediocrity, these happenings which are being referenced, do in fact lie within a realm of understanding by your peers which would allow anyone exibiting such abnormalities to still be considered to be an equal, valid member of the social circles or groups in which they have been previously inducted into, rather than being shunned or metaphorically exiled in the name of maintaining a consistent structure of similar mindsets, non-contradictory core beliefs, and shared attitudes that allow for a comfortable sense of social cohesion.",
     "supernatural flaunt but okay",
+    "Strange Flaunt, However Very Well",
+    "Strange Way to Display Something in Order to Provoke Envy or Admiration but Still Somewhat Acceptable"
   ];
 
   const sentBlocks = [
