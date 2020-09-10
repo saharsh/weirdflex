@@ -1,5 +1,5 @@
 export default (req, res) => {
-  const { token, text } = req.body;
+  const { token, text, user_id, response_url } = req.body;
 
   if (token !== process.env.SLACK_TOKEN) {
     return res.status(400);
@@ -24,8 +24,27 @@ export default (req, res) => {
     'Rather strange and unusual way to expose a select person/group of people or audience to the fact you poses a particular set of skills or skill that a rather unusual or odd that the average parson might be envious that they themselves cannot do it. Or have obtained a sizable amount of currency compared to the commoners that you wish to impress....but alas',
   ];
 
+  const sentBlocks = [
+    {
+      type: 'section',
+      text: {
+        type: 'mrkdwn',
+        text: flexes[Math.floor(Math.random() * flexes.length)],
+      },
+    },
+    {
+      type: 'context',
+      elements: [
+        {
+          type: 'mrkdwn',
+          text: `Requested by <@${user_id}>`,
+        },
+      ],
+    },
+  ];
   return res.status(200).json({
     response_type: 'in_channel',
-    text: flexes[Math.floor(Math.random() * flexes.length)],
+    blocks: sentBlocks,
   });
 };
+
