@@ -1,6 +1,9 @@
 # weirdflex 
 <a href="https://slack.com/oauth/v2/authorize?client_id=2210535565.1346134781558&scope=commands&user_scope="><img alt="Add to Slack" height="33" width="114.675" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a> [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsaharsh%2Fweirdflex%2Ftree%2Fmaster&env=SLACK_TOKEN&envDescription=Verification%20Token%20for%20slack%20app&envLink=https%3A%2F%2Fapi.slack.com%2Fauthentication%2Fverifying-requests-from-slack%23verifying-requests-from-slack-using-signing-secrets__verification-token-deprecation&project-name=weirdflex&repo-name=weirdflex&redirect-url=https%3A%2F%2Fgithub.com%2Fsaharsh%2Fweirdflex&demo-title=weirdflex&demo-description=A%20serverless%20slack%20app%20to%20generate%20flex%20responses&demo-url=https%3A%2F%2Fgithub.com%2Fsaharsh%2Fweirdflex&demo-image=https%3A%2F%2Fgo.srsh.link%2F0d45wd)
 
+## Usage
+Add the bot to your slack workspace and run `/weirdflex`.
+
 ## Contribute
 It'd be great if you added more weird flexes. You can add to the responses in the `flexes` array in [`api/weirdflexes`](https://github.com/saharsh/weirdflex/blob/master/api/weirdflex.js). Make a PR and I'll probably accept it.
 
