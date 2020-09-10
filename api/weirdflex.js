@@ -37,7 +37,7 @@ export default (req, res) => {
 			"elements": [
 				{
 					"type": "mrkdwn",
-					"text": `Flexed on by <@${user_id}>`
+					"text": `Requested by <@${user_id}>`
 				}
 			]
 		}
