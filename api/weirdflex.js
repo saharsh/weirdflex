@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 export default (req, res) => {
-  const { token, text, user_id, response_url } = req.body;
+  const { token, text, user_id, response_url } = JSON.stringify(req.body);
 ​
   if (token !== process.env.SLACK_TOKEN) {
     return res.status(400);
