@@ -26,14 +26,10 @@ export default (req, res) => {
   
   const sentBlocks = [
 		{
-			"type": "rich_text",
-			"block_id": "n2N0",
-			"elements": [
-					{
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": flexes[Math.floor(Math.random() * flexes.length)]
+				"text": "This is a mrkdwn section block :ghost: *this is bold*, and ~this is crossed out~, and <https://google.com|this is a link>"
 			}
 		},
 		{
@@ -41,12 +37,11 @@ export default (req, res) => {
 			"elements": [
 				{
 					"type": "mrkdwn",
-					"text": `Flexed on by <@${user_id}>`
+					"text": "Flexed on by <@user_id>"
 				}
 			]
 		}
 	]
-
   return res.status(200).json({
     response_type: 'in_channel',
     blocks: sentBlocks
