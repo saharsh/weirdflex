@@ -13,8 +13,7 @@ export default (req, res) => {
 	  method: 'POST',
 	  body: {
       response_type: 'in_channel',
-      text: 'hi',
-    	blocks: messageBlocks
+      text: 'hi'
   }})
 ​
   return;
